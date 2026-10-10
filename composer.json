@@ -1,0 +1,41 @@
+{
+    "name": "andregrunert-ctrl/zugferd-client",
+    "description": "Offizieller PHP-Client für die E-Rechnung API (ZUGFeRD 2.2 / Factur-X & XRechnung nach EN 16931)",
+    "type": "library",
+    "keywords": [
+        "zugferd",
+        "factur-x",
+        "xrechnung",
+        "en16931",
+        "e-rechnung",
+        "invoice",
+        "pdf-a3",
+        "woocommerce",
+        "laravel",
+        "php"
+    ],
+    "homepage": "https://e-rechnung-api.fly.dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "E-Rechnung API",
+            "email": "hello@e-rechnung-api.fly.dev",
+            "homepage": "https://e-rechnung-api.fly.dev"
+        }
+    ],
+    "require": {
+        "php": ">=7.4 || >=8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zugferd\\": "src/"
+        }
+    },
+    "support": {
+        "docs": "https://e-rechnung-api.fly.dev/docs",
+        "issues": "https://github.com/andregrunert-ctrl/zugferd-php-client/issues",
+        "source": "https://github.com/andregrunert-ctrl/zugferd-php-client"
+    }
+}
