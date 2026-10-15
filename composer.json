@@ -14,13 +14,13 @@
         "laravel",
         "php"
     ],
-    "homepage": "https://e-rechnung-api.fly.dev",
+    "homepage": "https://e-rechnung-cloud.de",
     "license": "MIT",
     "authors": [
         {
-            "name": "E-Rechnung API",
-            "email": "hello@e-rechnung-api.fly.dev",
-            "homepage": "https://e-rechnung-api.fly.dev"
+            "name": "E-Rechnung Cloud API",
+            "email": "support@e-rechnung-cloud.de",
+            "homepage": "https://e-rechnung-cloud.de"
         }
     ],
     "require": {
@@ -34,7 +34,7 @@
         }
     },
     "support": {
-        "docs": "https://e-rechnung-api.fly.dev/docs",
+        "docs": "https://e-rechnung-cloud.de/docs",
         "issues": "https://github.com/andregrunert-ctrl/zugferd-php-client/issues",
         "source": "https://github.com/andregrunert-ctrl/zugferd-php-client"
     }

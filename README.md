@@ -2,14 +2,14 @@
 
 [![Latest Version](https://img.shields.io/packagist/v/andregrunert-ctrl/zugferd-client.svg)](https://packagist.org/packages/andregrunert-ctrl/zugferd-client)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D7.4-blue.svg)](https://packagist.org/packages/andregrunert-ctrl/zugferd-client)
-[![Online Validator](https://img.shields.io/badge/Online%20Validator-Kostenlos%20testen-success.svg)](https://e-rechnung-api.fly.dev/validator)
-[![Standard](https://img.shields.io/badge/Standard-EN%2016931%20%7C%20ZUGFeRD%202.2-blue)](https://e-rechnung-api.fly.dev)
-[![Format](https://img.shields.io/badge/Format-PDF%2FA--3%20%2B%20Factur--X-purple)](https://e-rechnung-api.fly.dev)
+[![Online Validator](https://img.shields.io/badge/Online%20Validator-Kostenlos%20testen-success.svg)](https://e-rechnung-cloud.de/validator)
+[![Standard](https://img.shields.io/badge/Standard-EN%2016931%20%7C%20ZUGFeRD%202.2-blue)](https://e-rechnung-cloud.de)
+[![Format](https://img.shields.io/badge/Format-PDF%2FA--3%20%2B%20Factur--X-purple)](https://e-rechnung-cloud.de)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Der offizielle, leichtgewichtige PHP-Client für die [E-Rechnung API](https://e-rechnung-api.fly.dev).
+Der offizielle, leichtgewichtige PHP-Client für die [E-Rechnung API](https://e-rechnung-cloud.de).
 
-> 🔍 **Kostenloser Online-Validator:** Teste und validiere deine ZUGFeRD- & XRechnung-Dateien direkt im Browser ohne Registrierung: [e-rechnung-api.fly.dev/validator](https://e-rechnung-api.fly.dev/validator)
+> 🔍 **Kostenloser Online-Validator:** Teste und validiere deine ZUGFeRD- & XRechnung-Dateien direkt im Browser ohne Registrierung: [e-rechnung-cloud.de/validator](https://e-rechnung-cloud.de/validator)
 
 Erstelle, verarbeite und validiere rechtskonforme elektronische Rechnungen nach **EN 16931** (ZUGFeRD 2.2 / Factur-X & XRechnung) in WordPress, WooCommerce, Shopware, Laravel oder nativen PHP-Applikationen.
 
@@ -117,22 +117,22 @@ $client = new ZugferdClient('zg_live_mein_api_key');
 
 ## 🌐 Nützliche Links
 
-* **Live-Web-Validator:** [https://e-rechnung-api.fly.dev/validator](https://e-rechnung-api.fly.dev/validator) (Kostenlos Dateien im Browser prüfen)
-* **Interaktive API-Dokumentation (Swagger):** [https://e-rechnung-api.fly.dev/docs](https://e-rechnung-api.fly.dev/docs)
-* **Preise & Tarife:** [https://e-rechnung-api.fly.dev/#pricing](https://e-rechnung-api.fly.dev/#pricing)
-* **PHP & Laravel Tutorial:** [https://e-rechnung-api.fly.dev/tutorials/php-zugferd](https://e-rechnung-api.fly.dev/tutorials/php-zugferd)
-* **WooCommerce Guide:** [https://e-rechnung-api.fly.dev/tutorials/woocommerce-e-rechnung](https://e-rechnung-api.fly.dev/tutorials/woocommerce-e-rechnung)
+* **Live-Web-Validator:** [https://e-rechnung-cloud.de/validator](https://e-rechnung-cloud.de/validator) (Kostenlos Dateien im Browser prüfen)
+* **Interaktive API-Dokumentation (Swagger):** [https://e-rechnung-cloud.de/docs](https://e-rechnung-cloud.de/docs)
+* **Preise & Tarife:** [https://e-rechnung-cloud.de/#pricing](https://e-rechnung-cloud.de/#pricing)
+* **PHP & Laravel Tutorial:** [https://e-rechnung-cloud.de/tutorials/php-zugferd](https://e-rechnung-cloud.de/tutorials/php-zugferd)
+* **WooCommerce Guide:** [https://e-rechnung-cloud.de/tutorials/woocommerce-e-rechnung](https://e-rechnung-cloud.de/tutorials/woocommerce-e-rechnung)
 
 ---
 
 ## 🇬🇧 English Overview & Features
 
-`zugferd-client` is the official PHP SDK for the [E-Rechnung API](https://e-rechnung-api.fly.dev), built to ensure seamless European electronic invoicing compliance (**EN 16931**) for PHP applications, frameworks (Laravel, Symfony), and CMS/E-Commerce systems (WordPress, WooCommerce, Shopware, Magento):
+`zugferd-client` is the official PHP SDK for the [E-Rechnung API](https://e-rechnung-cloud.de), built to ensure seamless European electronic invoicing compliance (**EN 16931**) for PHP applications, frameworks (Laravel, Symfony), and CMS/E-Commerce systems (WordPress, WooCommerce, Shopware, Magento):
 
 * **PDF/A-3 Hybrid Generation:** Create invoices with embedded `factur-x.xml` (ZUGFeRD 2.2 / Factur-X) in MINIMUM, BASIC, EN 16931 (COMFORT), or EXTENDED profiles.
 * **XRechnung (XML-only):** Generate pure CII XML required for German public sector mandates (B2G).
 * **Validation Engine:** Validate incoming PDF/A-3 and XML invoices against official XSD schemas and EN 16931 business rules.
-* **Free Online Validator:** Test your invoices instantly in your browser at [e-rechnung-api.fly.dev/validator](https://e-rechnung-api.fly.dev/validator).
+* **Free Online Validator:** Test your invoices instantly in your browser at [e-rechnung-cloud.de/validator](https://e-rechnung-cloud.de/validator).
 * **Lightweight:** Native cURL implementation with zero third-party composer dependencies.
 
 ---

@@ -19,7 +19,7 @@ use Zugferd\ZugferdClient;
 use Zugferd\ValidationResult;
 use Zugferd\BillingStatus;
 
-echo "--- Starte PHP SDK Live-Test gegen e-rechnung-api.fly.dev ---\n\n";
+echo "--- Starte PHP SDK Live-Test gegen e-rechnung-cloud.de ---\n\n";
 
 $client = new ZugferdClient();
 echo "1. Client initialisiert mit Test-Key: " . substr(ZugferdClient::DEFAULT_TEST_KEY, 0, 7) . "...\n";

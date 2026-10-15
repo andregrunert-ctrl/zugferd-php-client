@@ -14,7 +14,7 @@ use Zugferd\Exception\ZugferdException;
  */
 class ZugferdClient
 {
-    public const DEFAULT_BASE_URL = 'https://e-rechnung-api.fly.dev';
+    public const DEFAULT_BASE_URL = 'https://e-rechnung-cloud.de';
     public const DEFAULT_TEST_KEY = 'zg_test_ouroboros_001';
 
     protected string $apiKey;
